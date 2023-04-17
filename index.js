@@ -38,7 +38,7 @@ let userNumber3 = prompt("Введи третье число");
 function maxNumber(number1, number2, number3) {
     return Math.max(number1, number2, number3)
 }
-alert("Максиммальное значение равно " + maxNumber(userNumber1, userNumber2, userNumber3));
+alert("Максимальное значение равно " + maxNumber(userNumber1, userNumber2, userNumber3));
 
 
 

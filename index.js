@@ -3,11 +3,9 @@
 степени + 3 ^ 3 степени */
 
 function cube(number) {
-    console.log(number*number*number);
+    return number*number*number
 }
-cube(3); 
-
-
+console.log(cube(2) + cube(3));
 
 
 
@@ -30,8 +28,6 @@ console.log(noNalog(number));
 
 
 
-
-
 /*Задание 3
 Пользователь с клавиатуры вводит 3 числа, необходимо создать функцию, которая определяет максимальное значение среди этих чисел*/
 
@@ -43,7 +39,6 @@ function maxNumber(number1, number2, number3) {
     return Math.max(number1, number2, number3)
 }
 alert("Максиммальное значение равно " + maxNumber(userNumber1, userNumber2, userNumber3));
-
 
 
 

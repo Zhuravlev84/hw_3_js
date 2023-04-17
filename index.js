@@ -2,10 +2,10 @@
 Создайте функцию которая возводит переданное число в куб, необходимо вывести в консоль результат 2^3 
 степени + 3 ^ 3 степени */
 
-/*function cube(number) {
+function cube(number) {
     console.log(number*number*number);
 }
-cube(3); */
+cube(3); 
 
 
 
@@ -17,14 +17,14 @@ cube(3); */
 Создать фукнцию, которая высчитывает 13% от данного числа и выводит в консоль текст "Размер заработной платы
  за вычетом налогов равен значение"*/
 
-/*let number = prompt('Введи любое число');
+let number = prompt('Введи любое число');
 if (isNaN(number)) {
     alert("Ввел не число")
 }
 function noNalog(salary) {
     return `Размер заработной платы за вычетом налогов равен ${salary*0.87}`
 }
-console.log(noNalog(number));*/
+console.log(noNalog(number));
 
 
 
@@ -35,14 +35,14 @@ console.log(noNalog(number));*/
 /*Задание 3
 Пользователь с клавиатуры вводит 3 числа, необходимо создать функцию, которая определяет максимальное значение среди этих чисел*/
 
-/*let userNumber1 = prompt("Введи первое число");
+let userNumber1 = prompt("Введи первое число");
 let userNumber2 = prompt("Введи второе число");
 let userNumber3 = prompt("Введи третье число");
 
 function maxNumber(number1, number2, number3) {
     return Math.max(number1, number2, number3)
 }
-alert("Максиммальное значение равно " + maxNumber(userNumber1, userNumber2, userNumber3));*/
+alert("Максиммальное значение равно " + maxNumber(userNumber1, userNumber2, userNumber3));
 
 
 
